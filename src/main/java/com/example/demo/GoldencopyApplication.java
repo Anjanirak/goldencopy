@@ -9,6 +9,7 @@ public class GoldencopyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GoldencopyApplication.class, args);
 		System.out.println("Hello World");
+		System.out.println("Hello World2");
 	}
 
 }
