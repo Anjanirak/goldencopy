@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class goldencopyController {
 
 	// Added the comments for the Check1 project.
+	// Added the comments for the Check2 project.
 	@GetMapping("/getName")
 	public String getName(@RequestParam(name = "userName") String name)
 	{
