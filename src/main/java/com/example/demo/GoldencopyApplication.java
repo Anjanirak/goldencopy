@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GoldencopyApplication {
 
 	public static void main(String[] args) {
+	    System.out.println("Hello World Before");
 		SpringApplication.run(GoldencopyApplication.class, args);
 		System.out.println("Hello World");
 		System.out.println("Hello World2");
